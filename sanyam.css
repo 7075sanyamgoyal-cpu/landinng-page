@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #1e3a8a; /* deep blue */
+  color: white;
+  padding: 2em 1em;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2em 1em;
+}
+
+.hero img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin-bottom: 1em;
+}
+
+/* Benefit Summary */
+.benefit-summary {
+  background: #f3f4f6;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+/* Call to Action */
+.cta {
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1e40af;
+}
+
+/* Benefits Section */
+.benefits {
+  padding: 3em 1em;
+  background: white;
+  text-align: center;
+}
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.benefit-card {
+  background: #f9fafb;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.benefit-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+/* Social Proof */
+.social-proof {
+  background: #f3f4f6;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.testimonials {
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 2em;
+}
+
+.testimonial {
+  background: white;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.testimonial .author {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 1em;
+}
+
