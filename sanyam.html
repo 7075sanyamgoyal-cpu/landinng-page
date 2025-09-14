@@ -1,84 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>P.E.A – Pursuit of Education for All</title>
-  <link rel="stylesheet" href="sanyam.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>P.E.A — Pursuit of Education for All</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="P.E.A — a simple, inclusive learning platform connecting learners with accessible resources, community, and support." />
 </head>
 <body>
-
-  <!-- Main Headline -->
-  <header class="header">
-    <h1>P.E.A – Pursuit of Education for All</h1>
-    <p>Breaking barriers in education through innovation and inclusivity</p>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">P.E.A</a>
+      <nav class="nav">
+        <a href="#benefits">Benefits</a>
+        <a href="#features">Features</a>
+        <a href="#social-proof">Testimonials</a>
+        <a class="btn btn-sm" href="#cta">Get Early Access</a>
+      </nav>
+    </div>
   </header>
 
   <!-- Hero Section -->
   <section class="hero">
-    <img src="hero-image.jpg" alt="Education for All">
-    <p>
-      Education should be accessible to everyone, everywhere. Our solution bridges the gap by creating equal opportunities for all learners.
-    </p>
-  </section>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <!-- 1A) Main Headline -->
+        <h1>Education that meets you where you are.</h1>
 
-  <!-- Benefit Summary -->
-  <section class="benefit-summary">
-    <h2>Why Choose P.E.A?</h2>
-    <p>
-      Our platform empowers students with access to resources, mentorship, and interactive tools.
-      It’s simple, affordable, and designed to create lasting impact.
-    </p>
-  </section>
+        <!-- 1B) Supporting Headline -->
+        <p class="supporting">
+          P.E.A (Pursuit of Education for All) brings bite-sized lessons, mentorship,
+          and community support into one inclusive space—built for learners with different needs,
+          schedules, and backgrounds.
+        </p>
 
-  <!-- Call to Action -->
-  <section class="cta" id="signup">
-    <h2>Join Us Today</h2>
-    <p>Be part of the change – help make education accessible for all.</p>
-    <a href="#signup" class="btn">Sign Up for Updates</a>
-  </section>
+        <!-- 1D) Benefit Summary -->
+        <p class="benefit-summary">
+          Learn at your pace, track progress clearly, and access real people when you need help.
+        </p>
 
-  <!-- Benefits Section -->
-  <section class="benefits">
-    <h2>Key Benefits</h2>
-    <div class="benefit-grid">
-      <div class="benefit-card">
-        <img src="benefit1.jpg" alt="Accessibility">
-        <h3>Accessibility</h3>
-        <p>Resources available anytime, anywhere – breaking location and financial barriers.</p>
+        <!-- 2) Call to Action -->
+        <form id="cta" class="cta-form" action="https://formsubmit.co" method="GET">
+          <input type="email" name="email" placeholder="Enter your email" required />
+          <button type="submit" class="btn">Get Early Access</button>
+        </form>
+
+        <p class="mini-note">No spam. We’ll only email you about launch and early-bird perks.</p>
       </div>
-      <div class="benefit-card">
-        <img src="benefit2.jpg" alt="Community">
-        <h3>Supportive Community</h3>
-        <p>Interactive forums, mentorship, and peer-to-peer collaboration.</p>
-      </div>
-      <div class="benefit-card">
-        <img src="benefit3.jpg" alt="Innovation">
-        <h3>Innovation</h3>
-        <p>AI-driven tools and personalized learning to maximize student potential.</p>
+
+      <!-- 1C) Hero Shot (image that “shows” the solution) -->
+      <div class="hero-image">
+        <!-- You can replace this remote image with your own local image: images/hero.jpg -->
+        <img
+          src="https://images.unsplash.com/photo-1587613865763-4b8b0b0eac34?q=80&w=1600&auto=format&fit=crop"
+          alt="Students learning online with supportive, inclusive tools"
+          loading="eager"
+        />
       </div>
     </div>
   </section>
 
-  <!-- Social Proof -->
-  <section class="social-proof">
-    <h2>What People Say</h2>
-    <div class="testimonials">
-      <div class="testimonial">
-        <p>“P.E.A gave my students hope and tools they never had before. It’s truly life-changing.”</p>
-        <p class="author">– Teacher, Rural School</p>
+  <!-- Benefits (clear reasons why someone would want this) -->
+  <section id="benefits" class="section">
+    <div class="container">
+      <h2>Why learners choose P.E.A</h2>
+      <div class="grid-3">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1200&auto=format&fit=crop"
+            alt="Simple, guided learning paths"
+            loading="lazy"
+          />
+          <h3>Guided Learning Paths</h3>
+          <p>Structured modules with short videos, quizzes, and recap notes—easy to start, easy to continue.</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1200&auto=format&fit=crop"
+            alt="Accessible and inclusive design"
+            loading="lazy"
+          />
+          <h3>Truly Inclusive</h3>
+          <p>Readable fonts, captioned videos, multilingual support, and flexible pacing for different learning needs.</p>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=1200&auto=format&fit=crop"
+            alt="Community and mentorship"
+            loading="lazy"
+          />
+          <h3>Community + Mentors</h3>
+          <p>Get help from peers and trained mentors when you’re stuck—no learner left behind.</p>
+        </div>
       </div>
-      <div class="testimonial">
-        <p>“As a student, I finally feel like I can compete on a level playing field.”</p>
-        <p class="author">– University Student</p>
+    </div>
+  </section>
+
+  <!-- Features / Key selling points -->
+  <section id="features" class="section alt">
+    <div class="container">
+      <h2>What makes P.E.A different</h2>
+      <ul class="feature-list">
+        <li><strong>Smart placement</strong> tests to start at the right level.</li>
+        <li><strong>Offline-friendly</strong> notes and low-bandwidth video options.</li>
+        <li><strong>Progress dashboards</strong> with weekly nudges that respect your schedule.</li>
+        <li><strong>Real-time support</strong> from mentors via chat or voice notes.</li>
+        <li><strong>Local pathways</strong> to scholarships, internships, and community programs.</li>
+      </ul>
+
+      <!-- Secondary image (optional) -->
+      <div class="feature-image">
+        <img
+          src="https://images.unsplash.com/photo-1553877522-b5b9f9a8a08a?q=80&w=1600&auto=format&fit=crop"
+          alt="Progress tracking dashboard and accessible UI"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof (testimonials) -->
+  <section id="social-proof" class="section">
+    <div class="container">
+      <h2>What future users say</h2>
+      <div class="quotes grid-3">
+        <blockquote class="quote">
+          “The short lessons and captions mean I can study on the bus without missing anything.”
+          <cite>— Ali, Year 12 student</cite>
+        </blockquote>
+        <blockquote class="quote">
+          “I finally understand my progress each week. The dashboard keeps me calm and focused.”
+          <cite>— Mira, mature-age learner</cite>
+        </blockquote>
+        <blockquote class="quote">
+          “Our mentees need flexible, inclusive tools. P.E.A fits exactly that.”
+          <cite>— Community mentor, Melbourne</cite>
+        </blockquote>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; 2025 P.E.A – Pursuit of Education for All | All Rights Reserved</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> P.E.A — Pursuit of Education for All</p>
+      <a class="footer-link" href="#cta">Join the early access list</a>
+    </div>
   </footer>
 
+  <script>
+    // small enhancement: current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
